@@ -9,8 +9,8 @@ describe('moving_zeros', ()=>{
         answer = moving_zeros(arr)
         
         for(let i = 0; i < 3; i++){
-            expect(arr.includes(answer[i])).toBeTrue();
-            expect(answer[i]).toNotEqual(0)
+            expect(arr.includes(answer[i])).toBe(true);
+            expect(answer[i]).not.toEqual(0)
         }
         
         for(let i = arr.length-1; i > 3; i--){
@@ -23,8 +23,8 @@ describe('moving_zeros', ()=>{
         answer = moving_zeros(arr)
         
         for(let i = 0; i < 4; i++){
-            expect(arr.includes(answer[i])).toBeTrue();
-            expect(answer[i]).toNotEqual(0)
+            expect(arr.includes(answer[i])).toBe(true);
+            expect(answer[i]).not.toEqual(0)
         }
         
         for(let i = arr.length-1; i > 4; i--){
@@ -37,8 +37,8 @@ describe('moving_zeros', ()=>{
         answer = moving_zeros(arr)
         
         for(const x of answer){
-            expect(arr.includes(x)).toBeTrue();
-            expect(x).toNotEqual(0)
+            expect(arr.includes(x)).toBe(true);
+            expect(x).not.toEqual(0)
         }
     })
     
@@ -60,8 +60,8 @@ describe('moving_zeros', ()=>{
         expect(answer.length).toEqual(arr.length)
         
         for(let i = 0; i < 3; i++){
-            expect(arr.includes(answer[i])).toBeTrue();
-            expect(answer[i]).toNotEqual(0)
+            expect(arr.includes(answer[i])).toBe(true);
+            expect(answer[i]).not.toEqual(0)
         }
         
         for(let i = arr.length-1; i > 3; i--){
