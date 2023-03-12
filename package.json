@@ -1,0 +1,25 @@
+{
+  "name": "cs-algorithms-project",
+  "version": "1.0.0",
+  "description": "## Sprint: Algorithms",
+  "main": "jest.config.js",
+  "type": "commonjs",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jduell12/cs-algorithms-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jduell12/cs-algorithms-project/issues"
+  },
+  "homepage": "https://github.com/jduell12/cs-algorithms-project#readme"
+}
