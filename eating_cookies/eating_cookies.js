@@ -1,4 +1,4 @@
-const eating_cookies = n => {
+const eating_cookies = (n, cache=[]) => {
     //your code here
 }
 
